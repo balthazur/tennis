@@ -7,6 +7,10 @@
 # And not Jupyter Notebook files
 !*.ipynb
 
-# And not these two videos
+# Allow the videos directory
+!videos/
+# But ignore everything in it
+videos/*
+# Except these two specific videos
 !videos/demo_720p60_10fps.mp4
 !videos/demo_alt_10fps.mp4

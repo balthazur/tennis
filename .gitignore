@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not .gitignore file
+!.gitignore
+
+# And not Jupyter Notebook files
+!*.ipynb
+
+# And not these two videos
+!videos/demo_720p60_10fps.mp4
+!videos/demo_alt_10fps.mp4
